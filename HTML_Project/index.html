@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Dave Gray">
+    <meta name="description" content="The official website for The Little Taco Shop">
+    <title>The Little Taco Shop</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            background-color: #fff8f0;
+            color: #333;
+        }
+
+        header {
+            background-color: #f44336;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            list-style: none;
+            padding: 0;
+            margin: 1rem 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        figure {
+            margin: 1rem auto;
+            text-align: center;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+        }
+
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+
+        th, td {
+            padding: 0.75rem;
+            text-align: center;
+        }
+
+        caption {
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+
+        aside {
+            background-color: #ffe4c4;
+            padding: 1rem;
+            margin-top: 1rem;
+            border-left: 4px solid #f44336;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+
+        a[href="#"] {
+            display: inline-block;
+            margin-top: 1rem;
+            color: #f44336;
+            font-weight: bold;
+        }
+
+        a[href="#"]:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🌮 Welcome to The Little Taco Shop</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About LTS</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="hours.html">Hours</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <figure>
+        <img src="img/Taco_and_drink_275X183.jpeg" alt="Tacos and a Drink" title="We love tacos!" width="400" height="267">
+        <figcaption>Tacos and a Drink</figcaption>
+    </figure>
+
+    <main>
+        <section id="about">
+            <h2>About LTS</h2>
+            <p><abbr title="The Little Taco Shop">LTS</abbr> was founded in <time datetime="2022">2022</time>. Built from a <strong>love of tacos</strong> 🌮, we bring flavor and fun to the community!</p>
+
+            <aside>
+                <h3>Taco Trivia</h3>
+                <details>
+                    <summary>When did tacos first appear in the U.S.?</summary>
+                    <p>
+                        According to historian Jeffrey M. Pilcher, tacos first appeared in a U.S. newspaper in <time datetime="1905">1905</time>. 
+                        (<cite><a href="https://www.smithsonianmag.com/arts-culture/where-did-the-taco-come-from-81228162/" target="_blank">Smithsonian Magazine</a></cite>)
+                    </p>
+                </details>
+            </aside>
+        </section>
+
+        <hr>
+
+        <section id="menu">
+            <h2>Our Menu</h2>
+            <table>
+                <caption>Our Tacos</caption>
+                <thead>
+                    <tr>
+                        <th>Type</th>
+                        <th>Qty</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><th rowspan="3">Crunchy</th><td>1</td><td>$1.50</td></tr>
+                    <tr><td>2</td><td>$2.50</td></tr>
+                    <tr><td>3</td><td>$3.25</td></tr>
+                    <tr><th rowspan="3">Soft</th><td>1</td><td>$2.00</td></tr>
+                    <tr><td>2</td><td>$3.50</td></tr>
+                    <tr><td>3</td><td>$4.50</td></tr>
+                </tbody>
+                <tfoot>
+                    <tr><td colspan="3">Chips &amp; Salsa - $2.00</td></tr>
+                </tfoot>
+            </table>
+            <a href="#">⬆ Back To Top</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 The Little Taco Shop 🌮</p>
+    </footer>
+</body>
+</html>

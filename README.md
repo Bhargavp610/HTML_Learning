@@ -1,49 +1,60 @@
 # HTML Learning & Practice
 
-This repository is a personal workspace where I practice and experiment with **HTML and basic CSS** concepts.  
-It’s focused on building a strong foundation by writing code from scratch, testing ideas, and understanding how web pages are structured.
+This repository is my personal workspace for practicing **HTML and basic CSS** fundamentals.
+It’s focused on learning by doing—writing code from scratch, experimenting, breaking things,
+and understanding how web pages are structured.
 
 ---
 
-## What this repository contains
+## Repository structure
 
-- Basic HTML page structure
-- Semantic HTML elements
-- Linking pages together
-- Working with images and folders
-- Simple styling with CSS
-- Small practice projects and exercises
+Each folder represents a different learning track or practice project.
 
-Each folder represents a separate practice attempt or mini project.
+### 📁 First-HTML_Project
+My earliest hands-on HTML project.
+Focuses on:
+- Basic HTML structure
+- Linking pages
+- Images and file paths
+- Simple CSS styling
+
+### 📁 FreeCodeCamp_learning
+Practice files created while following FreeCodeCamp HTML lessons.
+Used to reinforce:
+- HTML5 semantics
+- Forms and inputs
+- Page layout fundamentals
+- Writing clean, readable markup
+
+### 📁 HTML_Project
+A larger practice project that was originally its own repository.
+I’ve moved it here to keep all HTML learning and experiments in one place.
+
+This folder reflects:
+- Applied HTML concepts
+- Incremental improvement
+- Learning through iteration rather than polished production code
 
 ---
 
-## Purpose
+## Purpose of this repository
 
-The goal of this repository is learning through repetition and hands-on practice.  
-Instead of copying full projects, I use this space to:
-- Try things out
-- Break and fix layouts
-- Understand how HTML and CSS actually behave in the browser
+This is a **learning-focused repository**, not a showcase portfolio.
 
-This repo may look simple, but it reflects steady progress and fundamentals-first learning.
+I use it to:
+- Practice core HTML/CSS concepts
+- Experiment freely without worrying about perfection
+- Build strong fundamentals before moving to more advanced front-end work
 
----
-
-## Current focus
-
-- HTML5 structure and semantics  
-- Page layout and organization  
-- File paths and assets (images, CSS)  
-- Clean, readable markup  
+Some files are intentionally simple to reinforce the basics.
 
 ---
 
 ## Notes
 
-- This is a **learning repository**, not a polished production project.
-- Code may evolve as concepts improve.
-- Some files are intentionally basic to reinforce fundamentals.
+- Code may change as my understanding improves
+- Folder structure may evolve over time
+- Projects here prioritize learning over visual polish
 
 ---
 
